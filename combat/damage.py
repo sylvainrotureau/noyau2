@@ -1,4 +1,6 @@
-# Functions for calculating damage
 def calculate_damage(attack, defense):
-       # ... (Code from 'combat.txt' related to damage calculation)
-       pass
+    # Calcul des dégâts (à améliorer)
+    degats = attack - defense
+    if degats < 0:
+        degats = 0
+    return degats

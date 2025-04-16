@@ -1,4 +1,4 @@
-# Creature AI and behavior logic
 def update_creature_behavior():
-        # ... (Code from 'creatures.txt' for AI)
-        pass
+    # Logique d'IA de base (à améliorer)
+    print("Comportement des créatures mis à jour.")
+    pass

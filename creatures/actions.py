@@ -1,8 +1,8 @@
-#  Creature action implementations
 def creature_attack(creature, target):
-        # ... (Code from 'creatures.txt' for attack actions)
-        pass
+    # Logique d'attaque de la créature (à améliorer)
+    creature.attaquer(target)
 
 def creature_move(creature, direction):
-        # ... (Code from 'creatures.txt' for movement)
-        pass
+    # Logique de mouvement (à implémenter)
+    print(f"{creature.nom} se déplace vers {direction}!")
+    pass
