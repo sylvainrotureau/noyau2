@@ -23,7 +23,7 @@ class Duplicant:
         cible.vie -= degats
         if cible.vie < 0:
             cible.vie = 0
-        print(f"{cible.nom} a maintenant {cible.vie} PV.")
+        print(f"{self.nom} a maintenant {cible.vie} PV.")
 
     def defendre(self):
         # Logique de défense du Duplicant (à améliorer)
